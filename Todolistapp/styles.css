@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, #b59fc3, #a887bb);
+    color: #333;
+}
+
+.container-fluid {
+    padding: 30px 0;
+}
+
+h1 {
+    color: #6a5acd;
+}
+
+.input-container,
+.task-container {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container h2,
+.task-container h2 {
+    color: #6a5acd;
+}
+
+.input-container input,
+.input-container textarea {
+    border-radius: 5px;
+}
+
+#save-button {
+    background-color: #6a5acd;
+    border: none;
+}
+
+#save-button:hover {
+    background-color: #563d7c;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.table th {
+    text-align: center;
+}
